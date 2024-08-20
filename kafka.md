@@ -1,5 +1,8 @@
 ### Create Kafka topic:
 
+use below path to run following commands  
+cd /opt/bitnami/kafka/bin 
+
 ./kafka-topics.sh --create --topic product --bootstrap-server localhost:9092
 
 List Kafka topics:
